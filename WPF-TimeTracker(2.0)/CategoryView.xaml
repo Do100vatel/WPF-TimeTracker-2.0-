@@ -1,0 +1,17 @@
+﻿<UserControl x:Class="TimeTracker.Views.CategoryView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             DataContext="{Binding CategoryViewModel}">
+    <StackPanel>
+        <TextBlock Text="{Binding Category.Name}" FontSize="16" FontWeight="Bold"/>
+        <ListBox ItemsSource="{Binding Category.Subcategories}">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock Text="{Binding Name}"/>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <Button Content="Add Subcategory" Command="{Binding AddSubcategoryCommand}"/>
+        <Button Content="Remove Subcategory" Command="{Binding RemoveSubcategoryCommand}"/>
+    </StackPanel>
+</UserControl>
