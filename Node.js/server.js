@@ -11,35 +11,33 @@ app.use(bodyParser.json());
 app.use(cors());
 
 // MongoDB connection
-mongoose.connect('mongodb://localhost:27017/timetracker', {
-    useNewUrlParser: true,
-    useUnifiedTopology: true
-});
+mongoose.connect('mongodb://localhost:27017/timetracker');
 
+// Схема и модель для категорий
 const categorySchema = new mongoose.Schema({
-    name: String,
-    subcategories: [String]
+  name: String,
+  subcategories: [String]
 });
 
 const Category = mongoose.model('Category', categorySchema);
 
-// Routes
+// Маршруты
 app.get('/api/categories', async (req, res) => {
-    const categories = await Category.find();
-    res.json(categories);
+  const categories = await Category.find();
+  res.json(categories);
 });
 
 app.post('/api/categories', async (req, res) => {
-    const category = new Category(req.body);
-    await category.save();
-    res.json(category);
+  const category = new Category(req.body);
+  await category.save();
+  res.json(category);
 });
 
 app.delete('/api/categories/:id', async (req, res) => {
-    await Category.findByIdAndDelete(req.params.id);
-    res.json({ message: 'Category deleted' });
+  await Category.findByIdAndDelete(req.params.id);
+  res.json({ message: 'Category deleted' });
 });
 
 app.listen(port, () => {
-    console.log(`Server running on port ${port}`);
+  console.log(`Server running on port ${port}`);
 });

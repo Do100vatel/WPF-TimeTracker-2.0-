@@ -11,3 +11,11 @@ C:\Users\games\source\repos\WPF-TimeTracker(2.0)\WPF-TimeTracker(2.0)\obj\Debug\
 C:\Users\games\source\repos\WPF-TimeTracker(2.0)\WPF-TimeTracker(2.0)\obj\Debug\WPF_TimeTracker_2._0_.Properties.Resources.resources
 C:\Users\games\source\repos\WPF-TimeTracker(2.0)\WPF-TimeTracker(2.0)\obj\Debug\WPF-TimeTracker(2.0).csproj.GenerateResource.cache
 C:\Users\games\source\repos\WPF-TimeTracker(2.0)\WPF-TimeTracker(2.0)\obj\Debug\WPF-TimeTracker(2.0).csproj.CoreCompileInputs.cache
+C:\Users\games\source\repos\WPF-TimeTracker(2.0)\WPF-TimeTracker(2.0)\bin\Debug\WPF-TimeTracker(2.0).exe.config
+C:\Users\games\source\repos\WPF-TimeTracker(2.0)\WPF-TimeTracker(2.0)\bin\Debug\WPF-TimeTracker(2.0).exe
+C:\Users\games\source\repos\WPF-TimeTracker(2.0)\WPF-TimeTracker(2.0)\bin\Debug\WPF-TimeTracker(2.0).pdb
+C:\Users\games\source\repos\WPF-TimeTracker(2.0)\WPF-TimeTracker(2.0)\bin\Debug\Newtonsoft.Json.dll
+C:\Users\games\source\repos\WPF-TimeTracker(2.0)\WPF-TimeTracker(2.0)\bin\Debug\Newtonsoft.Json.xml
+C:\Users\games\source\repos\WPF-TimeTracker(2.0)\WPF-TimeTracker(2.0)\obj\Debug\WPF-Time.973BE256.Up2Date
+C:\Users\games\source\repos\WPF-TimeTracker(2.0)\WPF-TimeTracker(2.0)\obj\Debug\WPF-TimeTracker(2.0).exe
+C:\Users\games\source\repos\WPF-TimeTracker(2.0)\WPF-TimeTracker(2.0)\obj\Debug\WPF-TimeTracker(2.0).pdb
