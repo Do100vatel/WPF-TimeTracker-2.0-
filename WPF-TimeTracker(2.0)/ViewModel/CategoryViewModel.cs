@@ -12,7 +12,7 @@ namespace WPF_TimeTracker_2._0_.ViewModel
         {
             Category = category;
         }
-        
+
         public void AddSubcategory(string name)
         {
             Category.Subcategories.Add(new CategoryModel(name));
@@ -20,7 +20,7 @@ namespace WPF_TimeTracker_2._0_.ViewModel
         }
 
         public void RemoveSubcategory(CategoryModel subcategory)
-        { 
+        {
             Category.Subcategories.Remove(subcategory);
             OnPropertyChanged(nameof(Category));
         }
@@ -30,7 +30,6 @@ namespace WPF_TimeTracker_2._0_.ViewModel
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
-
 
     }
 }
