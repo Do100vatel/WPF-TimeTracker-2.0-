@@ -2,8 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\Node.js",
-    "\\WPF-TimeTracker(2.0)"
+    "\\Node.js\\time-tracker-server",
+    "\\Node.js\\time-tracker-server\\models",
+    "\\WPF-TimeTracker(2.0)",
+    "\\WPF-TimeTracker(2.0)\\ViewModel"
   ],
-  "SelectedNode": "\\Node.js\\server.js",
+  "SelectedNode": "\\Node.js\\time-tracker-server\\models\\category.js",
   "PreviewInSolutionExplorer": false
 }
